@@ -1,0 +1,14 @@
+{
+  "name": "multi-model-mcp-plugin",
+  "displayName": "Multi-Model Router",
+  "version": "0.1.0",
+  "description": "Route tasks to subagents running on different models (DeepSeek, Qwen, etc.) via Claude Code subprocess delegation.",
+  "license": "MIT",
+  "keywords": ["multi-model", "routing", "deepseek", "subagent"],
+  "mcpServers": {
+    "multi-model": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/build/index.js"]
+    }
+  }
+}
