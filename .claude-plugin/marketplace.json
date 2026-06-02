@@ -4,7 +4,7 @@
   "plugins": [
     {
       "name": "multi-model-mcp-plugin",
-      "source": ".",
+      "source": "./",
       "description": "Route tasks to subagents running on different models (DeepSeek, Qwen, etc.)"
     }
   ]
